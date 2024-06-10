@@ -1,11 +1,14 @@
-export const LapList = () => {
+export const LapList = ({ laps }) => {
   return (
     <>
       <div className="timer-laps">
-        <h3>Voltas</h3>
+        <h3>Voltas:</h3>
         <ul>
-          <li>Volta 1: 01:05</li>
-          <li>Volta 2: 01:05</li>
+          {laps.map((lap, index) => (
+            <li key={index}>
+              Volta {index + 1}: {lap}
+            </li>
+          ))}
         </ul>
       </div>
     </>
