@@ -45,7 +45,7 @@ showList('Google', 'André', 'Pedro', 'João');
 
 // Spred
 // Arrays
-const numeros = [1, 4, 9, 2, 3, 6, 20];
+const numeros1 = [1, 4, 9, 2, 3, 6, 20];
 Math.max(...numeros); // retorna 20
 
 // Transformar ArrayLike and Array
@@ -107,7 +107,7 @@ const grupoA = 100;
 const grupoB = 300;
 const vencedor = grupoA > grupoB ? 'Grupo A Venceu' : 'Grupo B Venceu';
 
-const numeros = [2, 3, 4, 5, 6];
+const numeros2 = [2, 3, 4, 5, 6];
 const total = numeros.filter((numero) => numero > 4);
 
 const active = true;
