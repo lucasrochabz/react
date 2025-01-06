@@ -1,4 +1,6 @@
 <!--
+  ### Exercício aula 01 input
+
   Faça um fetch (POST) para a API abaixo
   Para a criação ser aceita é necessário enviar dodos de:
   nome, email, senha, cep, rua, numero, bairro, cidade e estado
