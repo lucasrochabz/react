@@ -19,6 +19,7 @@ export const App = () => {
           id="nome"
           value={nome}
           setValue={setNome}
+          // Também é possível passar placeholder como props. Exemplo: placeholder="Digite seu nome"
           required
         />
         <Input

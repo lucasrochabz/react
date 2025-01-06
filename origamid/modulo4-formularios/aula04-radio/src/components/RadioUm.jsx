@@ -10,7 +10,7 @@ export const RadioUm = () => {
   return (
     <>
       <h2>Exemplo 1</h2>
-      <form action="">
+      <form>
         {produto}
         <label>
           <input

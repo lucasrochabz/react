@@ -12,7 +12,7 @@ export const RadioDois = () => {
     <>
       <h2>Exemplo 2</h2>
       <h3>Produtos</h3>
-      <form action="">
+      <form>
         {produto}
         <label>
           <input
@@ -36,7 +36,7 @@ export const RadioDois = () => {
       </form>
 
       <h3>Cores</h3>
-      <form action="">
+      <form>
         {cor}
         <label>
           <input
