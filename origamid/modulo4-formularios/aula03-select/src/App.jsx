@@ -4,7 +4,7 @@ import './App.css';
 export const App = () => {
   const [select, setSelect] = useState('');
   return (
-    <form action="">
+    <form>
       <select
         name="produtos"
         id="produtos"
